@@ -1,0 +1,36 @@
+body {
+  background-image: url("images/background_paper.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 50% 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.center_image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.move_image_1{
+  display: block;
+  margin-left: 650px;
+}
+
+.move_image_2{
+  display: block;
+  margin-left: 880px;
+}
+
+h1 {
+  text-decoration: underline;
+  font-size: 50px;
+}
+
+p {
+  font-size: 25px;
+}
