@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  background-color: white;
+}
+
+#map img {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.area {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+}
+
+#vancouver {
+  top: 220px;
+  left: 210px;
+}
+
+#georgia {
+  top: 400px;
+  left: 380px;
+}
+
+#virginia {
+  top: 330px;
+  left: 400px;
+}
+
+#nyc {
+  top: 280px;
+  left: 430px;
+}
+
+#abuDhabi {
+  top: 450px;
+  left: 1075px;
+}
+
+#shanghai {
+  top: 375px;
+  left: 1400px;
+}
+
+#wuhan {
+  top: 390px;
+  left: 1310px;
+}
+
+#box {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 220px;
+  background: rgb(255, 255, 255);
+  border: 1px solid black;
+  padding: 10px;
+  display: none;
+}
+
+#photo {
+  width: 100%;
+}
+
+#time {
+  font-weight: bold;
+}
+
+#text {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  color: black;
+}
