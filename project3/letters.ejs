@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title> 💌 </title>
+        <link href="style.css" rel="stylesheet" />
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="https://use.typekit.net/ela1xrn.css">
+    </head>
+    <body>
+        <div id='date'></div>
+        <div id='name'></div>
+        <div id="content">
+           <% for(let l of allLetters) { %>
+                <span class="names"><%=l.name%></span>
+                <span class="letters"><%=l.message %></span>
+            <% } %>
+        </div>
+    </body>
+</html>
