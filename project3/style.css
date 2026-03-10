@@ -1,0 +1,68 @@
+/*first page background*/
+.closedLetter {
+    background-image: url(/images/letter.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*second page background*/
+.openLetter {
+    background-image: url(/images/open_letter.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30%;
+    width: 20%;
+    gap: 10px;
+}
+
+#date {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+}
+
+#name {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.names {
+    display: none;
+}
+
+.letters {
+    margin: 0;
+    padding: 0;
+    line-height: 1.8vh;
+    overflow-wrap: break-word;
+}
+
+p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+#content {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
