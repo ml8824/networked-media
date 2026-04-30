@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>to someone you miss ~</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/zeu5kpj.css">
+  </head>
+  <body>
+    <div class="page">
+      <div class="spine-line"></div>
+      <div class="left-page">
+        <h1>to someone you miss ~</h1>
+        <h2>what's their name?</h2>
+
+        <form action="/step1" method="POST" enctype="multipart/form-data">
+          <input type="text" name="personName" placeholder="input name" required />
+      </div>
+
+      <div class="right-page">
+        <h2>what song or album would you like to send to them?</h2>
+        <input type="file" name="albumCover" accept="image/*" required />
+      </div>
+
+      <div class="bottom">
+        <div id="liveTime"></div>
+        <button type="submit" class="arrow-button">-----></button>
+      </div>
+
+        </form>
+    </div>
+  </body>
+</html>

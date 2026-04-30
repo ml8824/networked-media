@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>for you ~</title>
+    <link href="/style.css" rel="stylesheet" />
+    <script src="/main.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/zeu5kpj.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="spine-line"></div>
+      <div class="left-page entry-left">
+        <h2 class="dear-name">dear <%= entry.personName %>,</h2>
+        <p class="message"><%= entry.message %></p>
+      </div>
+
+      <div class="right-page">
+        <img src="/<%= entry.image %>" class="entry-image" />
+      </div>
+
+      <div class="from-name">
+        <h2>from <%= entry.senderName %></h2>
+      </div>
+
+      <ul class="nav">
+        <li><a href="/home">return to albums</a></li>
+        <li><a href="/">submit something else</a></li>
+      </ul>
+
+      <div class="bottom">
+        <%= new Date(entry.createdAt).toLocaleString() %>
+      </div>
+    </div>
+  </body>
+</html>

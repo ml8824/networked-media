@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>to someone you miss ~</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/zeu5kpj.css">
+  </head>
+  <body>
+    <div class="page">
+        <div class="spine-line"></div>
+        <div class="left-page album-grid">
+            <% entries.slice(0, 16).forEach(function(entry) { %>
+                <a href="/entry/<%= entry._id %>" class="album-picture">
+                    <img src="/<%= entry.image %>" alt="album or song cover uploaded by a certain user to someone they miss">
+                </a>
+            <% }) %>
+        </div>
+
+        <div class="right-page album-grid">
+            <% entries.slice(16, 32).forEach(function(entry) { %>
+                <a href="/entry/<%= entry._id %>" class="album-picture">
+                    <img src="/<%= entry.image %>" alt="album or song cover uploaded by a certain user to someone they miss">
+                </a>
+            <% }) %>
+        </div>
+    </div>
+  </body>
+</html>
